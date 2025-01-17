@@ -1,0 +1,11 @@
+services:
+  rust_app:
+    container_name: rust_document
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app # ホストのカレントディレクトリをコンテナの /app にマウント
+    working_dir: /app # 作業ディレクトリを /app に設定
+    stdin_open: true
+    tty: true

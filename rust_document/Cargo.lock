@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "my_rust_app"
+name = "rust_document"
 version = "0.1.0"
