@@ -1,40 +1,43 @@
 mod fivonacci;
+mod rectangle;
 // mod ondo;
 mod structuser;
+mod traitA;
 fn main(){
     // ondo::ondo();
-    let n = 1;
-    let result: usize = fivonacci::fivonacci(n);
-    println!("{}番目のフィボナッチ数は:{}",n, result);
-    nijuukaihou();
-    let mut s1 = String::from("Hello world");
-    let length = calculate_length(&mut s1);
-    {
+    // let n = 1;
+    // let result: usize = fivonacci::fivonacci(n);
+    // println!("{}番目のフィボナッチ数は:{}",n, result);
+    // nijuukaihou();
+    // let mut s1 = String::from("Hello world");
+    // let length = calculate_length(&mut s1);
+    // {
 
-        let r1 = &s1;
-        println!("r1 :{}", r1);
-    }
-    {let r2 = &s1;
-        println!("r2: {}", r2);
+    //     let r1 = &s1;
+    //     println!("r1 :{}", r1);
+    // }
+    // {let r2 = &s1;
+    //     println!("r2: {}", r2);
     
-    }
-    {
+    // }
+    // {
 
-        let r3 = &mut s1;
-        println!("r3: {}", r3);
-    }
+    //     let r3 = &mut s1;
+    //     println!("r3: {}", r3);
+    // }
 
     
 
-    println!("The length of'{}' is {}", s1, length);
+    // println!("The length of'{}' is {}", s1, length);
 
-    let reference = dangle();
-    println!("Moveしました{}", reference);
-    let s =String::from("Hello world");
-    let _word = first_word(&s);
-    slice();
-    structuser::user1();
-
+    // let reference = dangle();
+    // println!("Moveしました{}", reference);
+    // let s =String::from("Hello world");
+    // let _word = first_word(&s);
+    // slice();
+    // structuser::user1();
+    rectangle::rectangle();
+    traitA::circle_rectangle();
 }
 
 fn nijuukaihou(){

@@ -16,3 +16,4 @@ pub fn user1(){
 
     println!("user1 name:{}", user1.username);
 }
+
