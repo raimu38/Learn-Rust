@@ -1,0 +1,46 @@
+# ビルド成果物
+/target/
+
+# Cargo.lockは通常、ライブラリでは除外し、アプリケーションでは含める
+# (ライブラリなら次の行をコメントアウト)
+/Cargo.lock
+
+# 編集時に生成される一時ファイル
+*.rs.bk
+
+# IDE/エディタ関連のファイル
+# IntelliJ IDEA / RustRover
+.idea/
+# VSCode
+.vscode/
+# Emacs
+*~
+# Vim
+*.swp
+*.swo
+*.swn
+# Eclipse
+.project
+.cproject
+.settings/
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Mac OS特有のファイル
+.DS_Store
+
+# その他OSや環境依存のファイル
+Thumbs.db
+*.log
+
+# ログファイルやデバッグ用のファイル
+*.log
+*.tmp
+
+# テスト関連
+/coverage/
+*.profraw
+
+# Gitの管理下に置きたくない環境変数ファイル
+.env
