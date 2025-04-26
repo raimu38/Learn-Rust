@@ -1,0 +1,13 @@
+[build-system]
+requires = ["maturin>=0.14"]
+build-backend = "maturin"
+
+[project]
+name = "rust_parallel"
+version = "0.1.0"
+description = "Rust powered Python module"
+authors = [{ name = "raimu38", email = "176199024+raimu38@users.noreply.github.com" }]
+license = "MIT"
+
+[tool.maturin]
+bindings = "pyo3"
